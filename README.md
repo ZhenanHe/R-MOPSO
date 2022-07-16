@@ -10,7 +10,7 @@ In this article, we focus on the vehicle routing problem (VRP) with time windows
 
 ## Benchmark and parameter
 
-We construct RMO-VRPTW by adding the disturbance on [Solomon’s Benchmark](http://web.cba.neu.edu/~msolomon/problems.htm), which provides the coordinate, demand, service time and time window of customers, as well as the capacity of vehicles related to VRPTW. At each problem, we add disturbance on travel time of all arcs and the pre-determined maximum disturbance degree makes travel time fluctuate in a range. The maximum disturbance is defined in `code/mian.m`:
+We construct RMO-VRPTW by adding the disturbance on [Solomon’s Benchmark](http://web.cba.neu.edu/~msolomon/problems.htm), which provides the coordinate, demand, service time and time window of customers, as well as the capacity of vehicles related to VRPTW. At each problem, we add disturbance on travel time of all arcs and the pre-determined maximum disturbance degree makes travel time fluctuate in a range. The maximum disturbance is defined in `../code/mian.m`:
 
 > phi=1: the maximum disturbance degree on each arc is 1
 
